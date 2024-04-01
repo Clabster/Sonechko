@@ -1,0 +1,134 @@
+body {
+    font-family: 'Graduate', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Topbar {
+    background-color: #0CA789;
+    color: #EBFF00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Topbar_left {
+    display: flex;
+    align-items: center; 
+}
+
+.Topbar_left img {
+    height: 40px;
+    width: auto; 
+    margin-right: 10px; 
+}
+.airplane {
+    transform: scaleX(-1);
+}
+
+.company-info {
+    margin-top: 5px; 
+}
+
+.company-name{
+    margin: 0;
+   font-size: 25px;
+}
+
+.company-description{
+    margin: 0;
+    font-size: 15px;
+}
+
+.Topbar_right img {
+    height: 75px;
+    width: 75px;
+    margin: 0px;
+    margin-left: 10px;
+}
+.search {
+    width: 320px;
+}
+
+.Menu {
+    border: 2px solid #333;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    color: #333;
+}
+.Topbar, .Menu, .button {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Menu_header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Menu_header img {
+    height: 60px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.ProfileMenu {
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #111;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.ProfileMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ProfileMenu li {
+    padding: 10px;
+}
+
+.ProfileMenu li:hover {
+    background-color: #e0e0e0;
+}
+
+
+.airplane-container {
+    position: relative;
+    margin: auto;
+    height: 100px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.airplane {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

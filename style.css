@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Topbar {
+    background-color: #0CA789;
+    color: #EBFF00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Graduate', sans-serif;
+	 position: relative;
+}
+
+.Topbar_left {
+    display: flex;
+    align-items: center; 
+}
+
+.Topbar_left img {
+    height: 50px;
+    width: auto; 
+    margin-right: 10px; 
+}
+
+.company-info {
+    margin-top: 5px; 
+}
+
+.company-name{
+    margin: 0;
+    font-size: 50px; 
+}
+
+.company-description{
+    margin: 0;
+    font-size: 30px; 
+}
+
+.Topbar_right img {
+    height: 45px;
+}
+
+.buttom{
+    border-radius: 3px;
+    border: 2px solid black; 
+    color: black;
+    padding: 4px;
+    background-color: #8BC34A;
+    display: block;
+    margin-top: 5px;
+}
+.Product {
+    background-color: #757575;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product1 {
+    height: 280px;
+    width: 330px;
+    border-radius: 4px;
+}
+ 
+.maldives {
+    color: #FFEB3B;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.desc {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: #FFEB3B;
+}
+
+.order-button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Forbar {
+    background-color: #757575;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: flex;
+    color: #EBFF00;
+}
+ 
+.Forbar-info{
+
+}
+
+
+.userInfo{
+	display: none;
+	background-color: #757575;
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+	width: fit-content;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	box-shadow: 2px 2px 10px black;
+}

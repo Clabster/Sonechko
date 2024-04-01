@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(./ofi.jpg) center/cover;
+background-repeat: no-repeat ;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.airplane{
+    margin:5px;
+    position: fixed; 
+    top: 5px; 
+    left: 3px;
+}
+
+.form-report{
+    width: 400px;
+    background: rgba(161, 161, 161, 0.6);
+    
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.form-report h3{
+    font-family: 'Graduate', sans-serif; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 15px;
+ }
+
+ .form-report input{
+    background-color: D9D9D9;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: -15px;
+    outline: none;
+    border: none;
+margin-top: 25px;
+    border-radius: 8px;
+    font-family: 'Graduate', sans-serif; 
+
+}
+
+
+.form-report button{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+     transition: .4s ;
+
+     margin-top: 10px;
+     border-radius: 7px;
+     background-color: BCBCBC;
+     
+}
+
+
+
+button:hover {
+    background-color: #c2c2c2; /* Змінюємо колір фону кнопки на червоний при наведенні */
+    color: #000000; /* Змінюємо колір тексту кнопки на білий при наведенні */
+    transition: background-color 1s, color 1s;
+}
+
+.BackB{
+    background-color: rgba(174, 174, 174, 0.5);
+    border-radius: 9px;
+    border: 0px;
+    width: 120px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 11px;
+
+    font-family: 'Graduate', sans-serif; 
+
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 380px;
+}
+
+
+.description{
+    
+}
+
+.large-textarea {
+margin-top: 30px;
+
+    width: 100%; /* Повна ширина */
+    height: 100px; /* Початкова висота поля */
+    resize: vertical; /* Розширювати тільки по вертикалі */
+    overflow-y: auto;
+
+    font-size:14px;
+    padding-bottom: 85px;
+    background-color: D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Graduate', sans-serif; 
+}
